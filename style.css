@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Crimson+Pro:wght@300&family=Lato:ital@0;1&family=Montserrat&family=Playfair+Display:wght@500;600;800&family=Sansita&family=Spline+Sans&display=swap');
+html {
+    min-height: 100vh;
+    cursor: url(Assets/Cursors/Ghost.cur), auto;
+    font-family: Lunacy;
+
+  }
+  
+  body {
+    margin: 0;
+    background: radial-gradient( #32a0a8, #0b38a1);
+  }
+  
+  .page-title {
+    color: #FF6D00;
+    font-family: "lunacy";
+    font-weight: normal;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 60px;
+  }
+  .container{
+    width:60%;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    grid-template-columns: auto auto ;
+    background-color: aliceblue;
+    margin: auto;
+    height:400px;
+    font-family: 'Sansita', sans-serif;
+    border-radius: 5px;
+  }
+  .quiz-container{
+    border:solid #4eb3f2 1px;
+    background-color: #dde7ed;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .quiz-container:hover{
+    background-color:#4eb3f2 ;
+  }
+  .qz1{
+    background-color: #dde7ed;
+  }
+  .next{
+    float:right;
+  }
+ 
+  .rating{
+    float:left;
+  }
+  .counter{
+    margin-top: 20px;
+    margin-right: 35px;
+  }
+  
